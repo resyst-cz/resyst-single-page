@@ -993,3 +993,6 @@ p.form-message.error {
     z-index: 100;
     width: 100%;
 }
+.footer-area ul {
+    margin-top: 8px;
+}
