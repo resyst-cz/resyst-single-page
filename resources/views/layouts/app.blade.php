@@ -29,6 +29,12 @@
 
 @include('footer')
 
+<script src="https://www.google.com/recaptcha/api.js?render=6LcWctYUAAAAAIm5L0JWC8T59TkU0vsuh0UkrSEA"></script>
+<script>
+    grecaptcha.ready(function () {
+        grecaptcha.execute('6LcWctYUAAAAAIm5L0JWC8T59TkU0vsuh0UkrSEA', {action: 'homepage'});
+    });
+</script>
 <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
 <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
